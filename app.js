@@ -81,17 +81,20 @@ else {
 }
 
 var testLog = console.log(question6 + ': ' + answer6);
-for (var i = 1; i <= 4; i++) {
+var attempts1 = 1;
+while (attempts1 <= 4) {
   var question6 = 'Hey ' + userName + '! Guess how many outdoor sports I do?';
   var answer6 = prompt(question6);
   if (answer6 > 10) {
     alert('Ouch, that\'s too high.');
     console.log(question6 + ': ' + answer6);
+    attempts1++;
   } else if (answer6 < 10) {
     alert('Too low. I\'m not that lazy.');
     console.log(question6 + ': ' + answer6);
+    attempts1++;
   } else {
     alert('Bingo! You\'re a ninja.');
-    testLog;
+    testLog; //*this doesnt work yet
     break;
   }}
