@@ -3,7 +3,7 @@
 var questionName = 'What is your name?';
 var userName = prompt(questionName );
 console.log(questionName + ': ' + userName);
-alert('Howdy' + userName + '!');
+alert('Howdy ' + userName + '!');
 
 var question1 = 'Do you want to play a game of memory?';
 var answer1 = prompt(question1);
@@ -27,7 +27,7 @@ if (answer2.toLowerCase() === 'y' || answer2.toLowerCase() === 'yes') {
   console.log(question2 + ': ' + answer2);
 }
 else if (answer2.toLowerCase() === 'n' || answer2.toLowerCase() === 'no') {
-  var responseNo2 = alert('Who ever thought answering \'no\' could feels so right.');
+  var responseNo2 = alert('Who ever thought answering \'no\' could feel so right.');
   console.log(question2 + ': ' + answer2);
 }
 else {
@@ -79,3 +79,19 @@ else {
   var responseNA5 = alert('Woah there, tiger; try using english.');
   console.log(question5 + ': ' + answer5);
 }
+
+var testLog = console.log(question6 + ': ' + answer6);
+for (var i = 1; i <= 4; i++) {
+  var question6 = 'Hey ' + userName + '! Guess how many outdoor sports I do?';
+  var answer6 = prompt(question6);
+  if (answer6 > 10) {
+    alert('Ouch, that\'s too high.');
+    console.log(question6 + ': ' + answer6);
+  } else if (answer6 < 10) {
+    alert('Too low. I\'m not that lazy.');
+    console.log(question6 + ': ' + answer6);
+  } else {
+    alert('Bingo! You\'re a ninja.');
+    testLog;
+    break;
+  }}
