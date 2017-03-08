@@ -1,5 +1,10 @@
 'use strict';
 
+var questionName = 'What is your name?';
+var userName = prompt(questionName );
+console.log(questionName + ': ' + userName);
+alert('Howdy' + userName + '!');
+
 var question1 = 'Do you want to play a game of memory?';
 var answer1 = prompt(question1);
 if (answer1.toLowerCase() === 'y' || answer1.toLowerCase() === 'yes') {
