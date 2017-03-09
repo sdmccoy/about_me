@@ -10,24 +10,25 @@ function question(){
 }
 question();
 
-// function question(){
-//   var question1 = 'Do you want to play a game of memory?';
-//   var answer1 = prompt(question1);
-//   if (answer1.toLowerCase() === 'y' || answer1.toLowerCase() === 'yes') {
-//   var responseYes1 = alert('Superb! Hopefully you read my bio!');
-//   console.log(question1 + ': ' + answer1);
-//   counter++;
-//   }
-//   else if (answer1.toLowerCase() === 'n' || answer1.toLowerCase() === 'no') {
-//   var responseNo1 = alert('Sad panda, come back later when you\'re not scared.');
-//   console.log(question1 + ': ' + answer1);
-//   }
-//   else {
-//   var responseNA1 = alert('Woah there, tiger; try using english.');
-//   console.log(question1 + ': ' + answer1);
-//   }
-// }
-//
+function question1(){
+  var question1 = 'Do you want to play a game of memory?';
+  var answer1 = prompt(question1);
+  if (answer1.toLowerCase() === 'y' || answer1.toLowerCase() === 'yes') {
+    var responseYes1 = alert('Superb! Hopefully you read my bio!');
+    console.log(question1 + ': ' + answer1);
+    counter++;
+  }
+  else if (answer1.toLowerCase() === 'n' || answer1.toLowerCase() === 'no') {
+    var responseNo1 = alert('Sad panda, come back later when you\'re not scared.');
+    console.log(question1 + ': ' + answer1);
+  }
+  else {
+    var responseNA1 = alert('Woah there, tiger; try using english.');
+    console.log(question1 + ': ' + answer1);
+  }
+}
+question1();
+
 // function question()
 // {var question2 = 'Is my last name MacCoy?';
 // var answer2 = prompt(question2);
