@@ -123,9 +123,9 @@ for (var i = 0; i < 6; i++) {
 alert('Here\'s all of the possible answers: ' + newArray1);
 
 if (counter > 5) {
-  alert(counter + ' out of 7! Smart cookie!');
+  alert(counter + ' out of 7! ' + userName + ' is a smart cookie!');
 } else if (counter < 3) {
-  alert('Ouch, only ' + counter + ' out of 7. Back to school for you.');
+  alert('Ouch, only ' + counter + ' out of 7. ' + userName + ' , go back to school.');
 } else {
-  alert(counter + ' out of 7. Mediocre at best.');
+  alert(counter + ' out of 7. Mediocre at best, ' + userName + '.');
 }
