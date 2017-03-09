@@ -86,24 +86,25 @@ function question4(){
   }
 }
 question4();
-//
-// function question(){
-//   var question5 = 'Is my nickname Dingo?';
-// var answer5 = prompt(question5);
-// if (answer5.toLowerCase() === 'y' || answer5.toLowerCase() === 'yes') {
-//   var responseYes5 = alert('Correct! You must know voodoo because I never mentioned that.');
-//   console.log(question5 + ': ' + answer5);
-//   counter++;
-// }
-// else if (answer5.toLowerCase() === 'n' || answer5.toLowerCase() === 'no') {
-//   var responseNo5 = alert('Wrong but I won\'t fault you because I never mentioned it.');
-//   console.log(question5 + ': ' + answer5);
-// }
-// else {
-//   var responseNA5 = alert('Woah there, tiger; try using english.');
-// }
-// }
-//
+
+function question5(){
+  var question5 = 'Is my nickname Dingo?';
+  var answer5 = prompt(question5);
+  if (answer5.toLowerCase() === 'y' || answer5.toLowerCase() === 'yes') {
+    var responseYes5 = alert('Correct! You must know voodoo because I never mentioned that.');
+    console.log(question5 + ': ' + answer5);
+    counter++;
+  }
+  else if (answer5.toLowerCase() === 'n' || answer5.toLowerCase() === 'no') {
+    var responseNo5 = alert('Wrong but I won\'t fault you because I never mentioned it.');
+    console.log(question5 + ': ' + answer5);
+  }
+  else {
+    var responseNA5 = alert('Woah there, tiger; try using english.');
+  }
+}
+question5();
+
 // function question(){
 //   var attempts1 = 1;
 // while (attempts1 <= 4) {
