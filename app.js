@@ -48,23 +48,24 @@ function question2(){
 }
 question2();
 
-// function question()
-// {var question3 = 'Did I attend two colleges?';
-// var answer3 = prompt(question3);
-// if (answer3.toLowerCase() === 'y' || answer3.toLowerCase() === 'yes') {
-//   var responseYes3 = alert('Bingo! Technically 3 but you didn\'t know that.');
-//   console.log(question3 + ': ' + answer3);
-//   counter++;
-// }
-// else if (answer3.toLowerCase() === 'n' || answer3.toLowerCase() === 'no') {
-//   var responseNo3 = alert('Wrong; maybe alzheimers is setting in.');
-//   console.log(question3 + ': ' + answer3);
-// }
-// else {
-//   var responseNA3 = alert('Woah there, tiger; try using english.');
-//   console.log(question3 + ': ' + answer3);
-// }
-// }
+function question3(){
+  var question3 = 'Did I attend two colleges?';
+  var answer3 = prompt(question3);
+  if (answer3.toLowerCase() === 'y' || answer3.toLowerCase() === 'yes') {
+    var responseYes3 = alert('Bingo! Technically 3 but you didn\'t know that.');
+    console.log(question3 + ': ' + answer3);
+    counter++;
+  }
+  else if (answer3.toLowerCase() === 'n' || answer3.toLowerCase() === 'no') {
+    var responseNo3 = alert('Wrong; maybe alzheimers is setting in.');
+    console.log(question3 + ': ' + answer3);
+  }
+  else {
+    var responseNA3 = alert('Woah there, tiger; try using english.');
+    console.log(question3 + ': ' + answer3);
+  }
+}
+question3();
 //
 // function question(){
 //   var question4 = 'Did I mention I\'m back in school again?';
