@@ -66,25 +66,26 @@ function question3(){
   }
 }
 question3();
-//
-// function question(){
-//   var question4 = 'Did I mention I\'m back in school again?';
-// var answer4 = prompt(question4);
-// if (answer4.toLowerCase() === 'y' || answer4.toLowerCase() === 'yes') {
-//   console.log(question4 + ': ' + answer4);
-//   var responseYes4 = alert('Correct! You must have gone to school for being so smart.');
-//   console.log(question4 + ': ' + answer4);
-//   counter++;
-// }
-// else if (answer4.toLowerCase() === 'n' || answer4.toLowerCase() === 'no') {
-//   var responseNo4 = alert('Wah wah; I would see a dr. for your memory.');
-//   console.log(question4 + ': ' + answer4);
-// }
-// else {
-//   var responseNA4 = alert('Woah there, tiger; try using english.');
-//   console.log(question4 + ': ' + answer4);
-// }
-// }
+
+function question4(){
+  var question4 = 'Did I mention I\'m back in school again?';
+  var answer4 = prompt(question4);
+  if (answer4.toLowerCase() === 'y' || answer4.toLowerCase() === 'yes') {
+    console.log(question4 + ': ' + answer4);
+    var responseYes4 = alert('Correct! You must have gone to school for being so smart.');
+    console.log(question4 + ': ' + answer4);
+    counter++;
+  }
+  else if (answer4.toLowerCase() === 'n' || answer4.toLowerCase() === 'no') {
+    var responseNo4 = alert('Wah wah; I would see a dr. for your memory.');
+    console.log(question4 + ': ' + answer4);
+  }
+  else {
+    var responseNA4 = alert('Woah there, tiger; try using english.');
+    console.log(question4 + ': ' + answer4);
+  }
+}
+question4();
 //
 // function question(){
 //   var question5 = 'Is my nickname Dingo?';
