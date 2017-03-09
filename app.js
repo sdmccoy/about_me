@@ -104,10 +104,12 @@ for (var i = 0; i < 6; i++) {
   var question7 = 'Take a guess at one of those outdoor sports.';
   var answer7 = prompt(question7);
   if (newArray1.includes(answer7.toLowerCase())) {
-    alert('Wow, you\'re correct! Here\'s all of the possible answers: ' + newArray1);
+    alert('Wow, you\'re correct!');
     console.log(question7 + ': ' + answer7);
     break;
   } else {
-    alert('incorrect answer');
+    alert('Sorry, try again.');
+    console.log(question7 + ': ' + answer7);
   }
 }
+alert('Here\'s all of the possible answers: ' + newArray1);
