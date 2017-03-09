@@ -1,13 +1,13 @@
 'use strict';
 
 var counter = 0;
+var questionName = 'What is your name?';
+var userName = prompt(questionName);
 
 function question(){
-  var questionName = 'What is your name?';
-  var userName = prompt(questionName );
   console.log(questionName + ': ' + userName);
   alert('Howdy ' + userName + '!');
-}
+};
 question();
 
 function question1(){
@@ -105,27 +105,28 @@ function question5(){
 }
 question5();
 
-// function question(){
-//   var attempts1 = 1;
-// while (attempts1 <= 4) {
-//   var question6 = 'Hey ' + userName + '! Guess how many outdoor sports I do?';
-//   var answer6 = prompt(question6);
-//   if (answer6 > 10) {
-//     alert('Ouch, that\'s too high.');
-//     console.log(question6 + ': ' + answer6);
-//     attempts1++;
-//   } else if (answer6 < 10) {
-//     alert('Too low. I\'m not that lazy.');
-//     console.log(question6 + ': ' + answer6);
-//     attempts1++;
-//   } else {
-//     alert('Bingo! You\'re a ninja.');
-//     console.log(question6 + ': ' + answer6);
-//     counter++;
-//     break;
-//   }
-// }
-// }
+function question6(){
+  var attempts1 = 1;
+  while (attempts1 <= 4) {
+    var question6 = 'Hey ' + userName + '! Guess how many outdoor sports I do?';
+    var answer6 = prompt(question6);
+    if (answer6 > 10) {
+      alert('Ouch, that\'s too high.');
+      console.log(question6 + ': ' + answer6);
+      attempts1++;
+    } else if (answer6 < 10) {
+      alert('Too low. I\'m not that lazy.');
+      console.log(question6 + ': ' + answer6);
+      attempts1++;
+    } else {
+      alert('Bingo! You\'re a ninja.');
+      console.log(question6 + ': ' + answer6);
+      counter++;
+      break;
+    }
+  }
+};
+question6();
 //
 // function question(){ var newArray1 = ['kiteboarding', 'climbing', 'skiing', 'canyoning'];
 // for (var i = 0; i < 6; i++) {
