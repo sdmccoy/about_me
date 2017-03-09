@@ -125,30 +125,31 @@ function question6(){
       break;
     }
   }
-};
+}
 question6();
-//
-// function question(){ var newArray1 = ['kiteboarding', 'climbing', 'skiing', 'canyoning'];
-// for (var i = 0; i < 6; i++) {
-//   var question7 = 'Take a guess at one of those outdoor sports.';
-//   var answer7 = prompt(question7);
-//   if (newArray1.includes(answer7.toLowerCase())) {
-//     alert('Wow, you\'re correct!');
-//     console.log(question7 + ': ' + answer7);
-//     counter++;
-//     break;
-//   } else {
-//     alert('Sorry, try again.');
-//     console.log(question7 + ': ' + answer7);
-//   }
-// }
-// alert('Here\'s all of the possible answers: ' + newArray1);
-//
-// if (counter > 5) {
-//   alert(counter + ' out of 7! ' + userName + ' is a smart cookie!');
-// } else if (counter < 3) {
-//   alert('Ouch, only ' + counter + ' out of 7. ' + userName + ' , go back to school.');
-// } else {
-//   alert(counter + ' out of 7. Mediocre at best, ' + userName + '.');
-//   }
-//   }
+
+function question7(){
+  var newArray1 = ['kiteboarding', 'climbing', 'skiing', 'canyoning'];
+  for (var i = 0; i < 6; i++) {
+    var question7 = 'Take a guess at one of those outdoor sports.';
+    var answer7 = prompt(question7);
+    if (newArray1.includes(answer7.toLowerCase())) {
+      alert('Wow, you\'re correct!');
+      console.log(question7 + ': ' + answer7);
+      counter++;
+      break;
+    } else {
+      alert('Sorry, try again.');
+      console.log(question7 + ': ' + answer7);
+    }
+  }
+  alert('Here\'s all of the possible answers: ' + newArray1);
+  if (counter > 5) {
+    alert(counter + ' out of 7! ' + userName + ' is a smart cookie!');
+  } else if (counter < 3) {
+    alert('Ouch, only ' + counter + ' out of 7. ' + userName + ' , go back to school.');
+  } else {
+    alert(counter + ' out of 7. Mediocre at best, ' + userName + '.');
+  }
+}
+question7();
