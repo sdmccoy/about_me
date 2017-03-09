@@ -29,24 +29,25 @@ function question1(){
 }
 question1();
 
-// function question()
-// {var question2 = 'Is my last name MacCoy?';
-// var answer2 = prompt(question2);
-// if (answer2.toLowerCase() === 'y' || answer2.toLowerCase() === 'yes') {
-//   var responseYes2 = alert('Incorrect, it\'s McCoy, attention to detail is important!');
-//   console.log(question2 + ': ' + answer2);
-// }
-// else if (answer2.toLowerCase() === 'n' || answer2.toLowerCase() === 'no') {
-//   var responseNo2 = alert('Who ever thought answering \'no\' could feel so right.');
-//   console.log(question2 + ': ' + answer2);
-//   counter++;
-// }
-// else {
-//   var responseNA2 = alert('Woah there, tiger; try using english.');
-//   console.log(question2 + ': ' + answer2);
-// }
-// }
-//
+function question2(){
+  var question2 = '  Is my last name MacCoy?';
+  var answer2 = prompt(question2);
+  if (answer2.toLowerCase() === 'y' || answer2.toLowerCase() === 'yes') {
+    var responseYes2 = alert('Incorrect, it\'s McCoy, attention to detail is important!');
+    console.log(question2 + ': ' + answer2);
+  }
+  else if (answer2.toLowerCase() === 'n' || answer2.toLowerCase() === 'no') {
+    var responseNo2 = alert('Who ever thought answering \'no\' could feel so right.');
+    console.log(question2 + ': ' + answer2);
+    counter++;
+  }
+  else {
+    var responseNA2 = alert('Woah there, tiger; try using english.');
+    console.log(question2 + ': ' + answer2);
+  }
+}
+question2();
+
 // function question()
 // {var question3 = 'Did I attend two colleges?';
 // var answer3 = prompt(question3);
