@@ -3,7 +3,6 @@ h1 {
  font-family: 'Amatic SC', Verdana, sans-serif;
  color: white;
  background-color: darkcyan;
- position: fixed;
  margin: 0px;
  border: 3px solid black;
  width: 100%;
@@ -12,6 +11,7 @@ h1 {
 h2 {
   color: darkolivegreen;
 }
+
 section {
   border: 2px solid black;
   margin: 5px;
